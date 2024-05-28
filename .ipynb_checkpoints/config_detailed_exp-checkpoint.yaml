@@ -153,9 +153,8 @@ params:
     title: "About Me"
     image: "/images/panda_circle.jpeg"
     content: |-
-     I am a data scientist who recently graduated from Michigan State University. Currently, I am working as a research assistant at MSU, specializing in data science and AI in bioinformatics. I have a diverse background working on various projects across multiple industries, building AI solutions and data engineering pipelines to transform complex data into meaningful insights and practical applications.
+          I am a data scientist who recently graduated from Michigan State University. Currently, I am working as a research assistant at MSU, specializing in data science and AI in bioinformatics. I have a diverse background working on various projects across multiple industries, building AI solutions and data engineering pipelines to transform complex data into meaningful insights and practical applications.
 
- 
 
       I am currently working on projects that leverage AI to optimize patient care and enhance market analysis using academic and patent data.
 
@@ -312,8 +311,8 @@ params:
 
 
       - title: Predicting Funding Flows in Public and Private Markets Using Acadmeic and Patent Data
-        content: This project, guided by Professor Mohammad Ghassemi, aims to forecast funding flows in public and private markets using data science, time series analysis, and NLP. The research leverages diverse datasets from academic and financial sources, including S2ORC, Refinitive Workspace, and USPTO patent data, to provide insights into market sentiment and investment opportunities. 
-        image: /images/projects/funding.png
+        content: A robust framework for forecasting funding flows in public and private markets by harnessing the power of data science, time series analysis, and NLP.
+        image: /images/projects/converter.jpg
         #featured:
         #  name: Demo
         #  link: https://django-converter.herokuapp.com

@@ -153,9 +153,7 @@ params:
     title: "About Me"
     image: "/images/panda_circle.jpeg"
     content: |-
-     I am a data scientist who recently graduated from Michigan State University. Currently, I am working as a research assistant at MSU, specializing in data science and AI in bioinformatics. I have a diverse background working on various projects across multiple industries, building AI solutions and data engineering pipelines to transform complex data into meaningful insights and practical applications.
-
- 
+      I am a data scientist recently graduated from Michigan State University. Currently, I am working as a research assistant at MSU, where I specialize in data science and AI in bioinformatics. I have a diverse background working on various projects across multiple industries, aiming to transform complex data into meaningful insights and practical applications. 
 
       I am currently working on projects that leverage AI to optimize patient care and enhance market analysis using academic and patent data.
 
@@ -167,7 +165,7 @@ params:
       title: "The technologies I have have experience in:"
       items:
         - "<b>Languages:</b> Python, R, SQL, HTML, CSS, JavaScript"
-        - "<b>Data Science & AI:</b> Machine Learning (Supervised Learning, Unsupervised Learning, Bayesian Methods), Deep Learning(CNN, RNN, Transformers), Generative Modeling (Variational Autoencoders, Diffusion Models), Natural Language Processing(NLP), Large Language Models (LLAMA, GPT 3 etc.), Prompt Engineering, Statistical Analysis, Data Analysis"
+        - "<b>Data Science & AI:</b> Machine Learning (Supervised Learning, Unsupervised Learning, Bayesian Methods), Deep Learning(CNN, RNN, Transformers), Generative Modeling (Variational Autoencoders, Diffusion Models), Natural Language Processing(NLP), Large Language Models (LLAMA, GPT etc.), Prompt Engineering, Statistical Analysis, Data Analysis"
         - "<b>Frameworks & Libraries:</b> PyTorch, TensorFlow, SciKit-Learn, NLTK, SpaCy, Pandas, NumPy, SciPy, LangChain, LlamaIndex, FastAPI, Flask"
         - "<b>Big Data & Databases:</b> Apache Spark, Hadoop, Apache Hive, Kafka, MongoDB (NoSQL), Vector Databases (ChromaDB, Pinecone, FAISS)"
         - "<b>Cloud Platforms:</b> AWS (EC2, S3, Lambda, Redshift, DynamoDB, Glue, Bedrock), Azure(Azure Data Lake, Azure Databricks, Azure Machine Learning, Azure Synapse Analytics, Cosmos DB, Azure Data Factory)"
@@ -193,13 +191,7 @@ params:
         content: |-
           I am working as a research assistant under [Dr. Sudin Bhattacharya](https://iq.msu.edu/sudin-bhattacharya/), specializing in applying data science and AI in bioinformatics to model complex biological systems and uncover new data insights.
           
-          - Working on conditional generation using generative models to produce and analyze transitional gene expression profiles, enhancing understanding of cell differentiation across various cell types.
-          - Applied machine learning and Bayesian methods to predict cell-cell communication in perivascular adipose tissue (PVAT), focusing on integrin interactions to understand their role in stress relaxation; this research is submitted for review to Pharmacological Research.
-          - Applied advanced analysis and probabilistic modeling of single-cell data to trace heart development stages and uncover key trends, contributing to a published study on heart organoid development (https://pubmed.ncbi.nlm.nih.gov/38086920/).
-
-          - Employed statistical modeling techniques to analyze lipidomics data, identifying key biomarkers and advancing the understanding of lipid metabolism; this research is currently under review for publication.
-
-          - Deployed machine learning models on high-performance computing (HPC) clusters to analyze large-scale single-cell RNA-seq liver data, revealing intricate details of liver function and disease mechanisms.
+          - Developed and applied advanced machine learning and generative models to analyze complex biological data, uncovering key insights into cell differentiation, communication, and disease mechanisms. Utilized high-performance computing to manage and interpret large-scale single-cell datasets, contributing to significant advancements in understanding tissue-specific functions and interactions.
                  
                         
 
@@ -308,11 +300,11 @@ params:
           - icon: fa fa-envelope
             url: mailto:vishalpanda10@gmail.com
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
+            url: https://github.com/vishalpanda10/portfolio_panda
 
 
       - title: Predicting Funding Flows in Public and Private Markets Using Acadmeic and Patent Data
-        content: This project, guided by Professor Mohammad Ghassemi, aims to forecast funding flows in public and private markets using data science, time series analysis, and NLP. The research leverages diverse datasets from academic and financial sources, including S2ORC, Refinitive Workspace, and USPTO patent data, to provide insights into market sentiment and investment opportunities. 
+        content:     This project, guided by Professor Mohammad Ghassemi, aims to forecast funding flows in public and private markets using data science, time series analysis, and NLP. The research leverages diverse datasets from academic and financial sources, including S2ORC, Refinitive Workspace, and USPTO patent data, to provide insights into market sentiment and investment opportunities. 
         image: /images/projects/funding.png
         #featured:
         #  name: Demo
@@ -365,7 +357,7 @@ params:
             url: https://github.com/vishalpanda10/cse_891_llm_project.git
     
 
-      - title: Predicting Diagnoses from EHR Data
+      - title: Predicting Diagnosis from EHR Data
         content: This project constructs a knowledge graph from synthetic EHR data using Graph Attention Networks to predict patient diagnoses, focusing on healthcare interactions and classification accuracy.
         image: /images/projects/ehr.png
         #featured:
