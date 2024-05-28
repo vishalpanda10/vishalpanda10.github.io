@@ -187,19 +187,15 @@ params:
         companyUrl: "https://msu.edu/"
         date: "Jan 2023 - present"
         featuredLink:
-          enable: False
+          enable: false
           name: "View the project"
           url: "https://example.com"
         content: |-
           I am working as a research assistant under [Dr. Sudin Bhattacharya](https://iq.msu.edu/sudin-bhattacharya/), specializing in applying data science and AI in bioinformatics to model complex biological systems and uncover new data insights.
           
-          - Working on conditional generation using generative models to produce and analyze transitional gene expression profiles, enhancing understanding of cell differentiation across various cell types.
-          - Applied machine learning and Bayesian methods to predict cell-cell communication in perivascular adipose tissue (PVAT), focusing on integrin interactions to understand their role in stress relaxation; this research is submitted for review to Pharmacological Research.
-          - Applied advanced analysis and probabilistic modeling of single-cell data to trace heart development stages and uncover key trends, contributing to a published study on heart organoid development (https://pubmed.ncbi.nlm.nih.gov/38086920/).
+          - My work leverages generative models, machine learning algorithms, statistical and probabilistic methods, on high-performance computing clusters to analyze various types of biological data, enhancing our understanding of biological processes and disease mechanisms, and contributing to papers that are under review and published.
 
-          - Employed statistical modeling techniques to analyze lipidomics data, identifying key biomarkers and advancing the understanding of lipid metabolism; this research is currently under review for publication.
 
-          - Deployed machine learning models on high-performance computing (HPC) clusters to analyze large-scale single-cell RNA-seq liver data, revealing intricate details of liver function and disease mechanisms.
                  
                         
 
@@ -212,12 +208,13 @@ params:
           url: "https://example.com"
         info:
           enable: false
-          content: I worked as a software developer for more than one year in Amazon.
+          content: 
         content: |
-          I have worked in the field of data science as a Data Scientist and Engineer at [Wipro Technologies](https://www.wipro.com/) in Chennai, India.
+          I have worked in the field of data science as a Data Scientist and Engineer at [Wipro Technologies](https://www.wipro.com/) in Chennai, India, leading projects for Hamburg Commercial Bank.
 
 
-          - Developed and implemented machine learning solutions, including neural networks and BERT-based NLP models, to enhance financial data insights, compliance checks, and operational efficiency.
+
+          - Developed and implemented machine learning solutions, including neural networks and NLP models, to enhance financial data analysis, streamline compliance checks, and improve operational efficiency, ensuring robust support for strategic decision-making processes.
           - Engineered scalable data workflows and optimized ETL pipelines across financial applications using PySpark, SQL, and cloud technologies, significantly enhancing data processing efficiency and operational decision-making.
 
 
@@ -302,7 +299,7 @@ params:
         #  link: https://hugo-profile.netlify.app
         badges:
           - "CSS"
-          - "Bootstrap"
+          - "HTML"
           - "Javascript"
         links:
           - icon: fa fa-envelope
@@ -414,7 +411,7 @@ params:
     enable: true
     # title: "Custom Name"
     content: Feel free to reach out for feedback and discussions! I'll get back to you as soon as I can.
-    btnName: Mail me
+    btnName: Email me
     btnLink: mailto:vishalpanda10@gmail.com
     # formspree:
     #   enable: true # `contact.email` value will be ignored
