@@ -362,7 +362,7 @@ params:
             url: https://github.com/vishalpanda10/cse_891_llm_project.git
     
 
-      - title: Predicting Diagnoses from EHR Data
+      - title: Predicting Diagnosis from EHR Data
         content: This project constructs a knowledge graph from synthetic EHR data using Graph Attention Networks to predict patient diagnoses, focusing on healthcare interactions and classification accuracy.
         image: /images/projects/ehr.png
         #featured:
