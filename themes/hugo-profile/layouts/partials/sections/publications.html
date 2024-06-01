@@ -1,7 +1,7 @@
-{{ if .Site.Params.publications.enable | default false }}
-<section id="publications" class="py-5">
+{{ if .Site.Params.education.enable | default false }}
+<section id="education" class="py-5">
     <div class="container">
-        <h3 class="text-center">{{ .Site.Params.publications.title | default "Publications" }}</h3>
+        <h3 class="text-center">{{ .Site.Params.education.title | default "Publications" }}</h3>
         <div class="row justify-content-center py-5">
             {{ $indexMenu := .Site.Params.publications.index }}
             {{ range $index, $element := .Site.Params.publications.items }}
@@ -23,18 +23,19 @@
                                 <div class="float-end">
                                     <small>{{ .date }}</small>
                                 </div>
-                                <h5 class="card-title">{{ .title }}</h5>
+                                <h6 class="card-title">{{ .title }}</h6>
                                 
-                                {{ if .school.url }}
-                                <a href="{{ .school.url }}" target="_blank">
+                                {{ if .author.url }}
+                                <a href="{{ .author.url }}" target="_blank">
                                     <h6>
-                                    {{ .school.name }}
+                                    {{ .author.name }}
                                     </h6>
                                 </a>
                                 {{ else }}
-                                {{ .school.name }}
+                                {{ .author.name }}
                                 {{ end }}
-
+                                
+ 
                                 {{ if .GPA }}
                                 <div class="py-1">
                                     GPA:
@@ -43,7 +44,7 @@
                                     </i> 
                                 </div>
                                 {{ end }}
-                                <div class="py-1 publications-content">
+                                <div class="py-1 education-content">
                                     {{ .content | markdownify}}
                                 </div>
 
@@ -54,7 +55,10 @@
                                     </a>
                                 </div>
                                 {{ end }}
+
+                            
                             </div>
+
                         </div>
                     </div>
                 </div>
