@@ -94,6 +94,17 @@
                     </li>
                     {{ end }}
 
+ 
+
+                    {{ if and (.Site.Params.publications.enable | default false) (not (.Site.Params.navbar.menus.disablePublications | default false)) }}
+                    <li class="nav-item navbar-text">
+                        <a class="nav-link" href="{{ .Site.BaseURL | relURL }}#publications"
+                            aria-label="publications">
+                            {{ .Site.Params.publications.title | default "Publications" }}
+                        </a>
+                    </li>
+                    {{ end }}
+
                     {{ if and (.Site.Params.education.enable | default false) (not (.Site.Params.navbar.menus.disableEducation | default false)) }}
                     <li class="nav-item navbar-text">
                         <a class="nav-link" href="{{ .Site.BaseURL | relURL }}#education"
